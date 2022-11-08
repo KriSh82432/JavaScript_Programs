@@ -1,2 +1,2 @@
 # JavaScript_Programs
-A complete list of JS programs I've coded
+A complete list of JS programs I've written
