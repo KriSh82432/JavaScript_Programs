@@ -34,7 +34,7 @@ button{
     border-radius: 2px;
 }
 
-#start-el{
+#start-el, #newCard{
     display: none;
     color : #016f32;
     width: 150px;
@@ -44,4 +44,8 @@ button{
     padding-bottom: 5px;
     border: none;
     border-radius: 2px;
+}
+
+#cards-el, #sum-el, #newCard{
+    display: none;
 }
