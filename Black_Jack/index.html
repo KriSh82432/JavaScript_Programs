@@ -6,14 +6,14 @@
     <body>
         <h1>Blackjack Game</h1>
         <p id="message-el">Want to play a game? Enter your age below 👇</p>
-        <p id="age-el"></p>
         <label for="age">Your age :</label>
         <input type="number" name="personAge" id="age">
-        <button onclick="ageCheck()">CHECK AGE</button>
+        <button onclick="ageCheck()" id="ageEl">CHECK AGE</button>
         <p id="cards-el">Cards: </p>
         <p id="sum-el">Sum: </p>
         <button id="start-el" onclick="startGame()">START GAME</button>
         <button id="newCard" onclick="newCard()">NEW CARD</button>
+        <button id="restartGame" onclick="restartGame()">RESTART GAME</button>
         <script src="index.js"></script>
     </body>
 </html>
